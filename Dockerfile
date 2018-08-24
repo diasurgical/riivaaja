@@ -2,7 +2,7 @@ FROM rsmoorthy/wine-alpine
 
 RUN apk add --update --no-cache make
 
-COPY ./* /root/*
+COPY ./ /root/
 
 WORKDIR "/root/devilution"
 

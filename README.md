@@ -11,7 +11,7 @@ This build system is used in the devilution CI system as well in order to make s
 In order to use it to compile the source simply run the following command from the devilution root folder:
 
 ```plain
-docker run -v $(pwd):/root/devilution riivaaja/builder
+docker run -v $(pwd):/root/devilution diasurgical/riivaaja
 ```
 
 ## Building a new image
@@ -21,8 +21,8 @@ Place the files for Visual C++ 5 SP3 (DevStudio_5.10) and Visual C++ SP3 (VS6_SP
 Then run the following command:
 
 ```plain
-docker build -t riivaaja/builder:latest .
-docker push riivaaja/builder:latest
+docker build -t diasurgical/riivaaja:latest .
+docker push diasurgical/riivaaja:latest
 ```
 
 Make sure that all the files needed have the right casing (see the `.dockerignore` file).
