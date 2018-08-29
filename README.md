@@ -16,7 +16,7 @@ docker run -v $(pwd):/root/devilution diasurgical/riivaaja
 
 ## Building a new image
 
-Place the files for Visual C++ 5 SP3 (DevStudio_5.10) and Visual C++ SP3 (VS6_SP3) in the Riivaaja root folder. Make sure the versions of VC actually support optimizations (Professional and higher).
+Place the files for Visual C++ 5 SP3 (DevStudio_5.10) and Visual C++ SP5 PP5 (VS6) in the Riivaaja root folder. Make sure the versions of VC actually support optimizations (Professional and higher).
 
 Then run the following command:
 
