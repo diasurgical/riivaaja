@@ -14,6 +14,12 @@ In order to use it to compile the source simply run the following command from t
 docker run -v $(pwd):/root/devilution diasurgical/riivaaja
 ```
 
+To have it generate a pdb file for use with [Devilution-comparer](https://github.com/diasurgical/devilution-comparer) simply set the MAKE_BUILD enviroment variable to "pdb":
+
+```plain
+docker run -v $(pwd):/root/devilution -e MAKE_BUILD=pdb diasurgical/riivaaja
+```
+
 ## Building a new image
 
 Place the files for Visual C++ 5 SP3 (DevStudio_5.10) and Visual C++ SP5 PP5 (VS6) in the Riivaaja root folder. Make sure the versions of VC actually support optimizations (Professional and higher).
