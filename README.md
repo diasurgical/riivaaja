@@ -11,13 +11,13 @@ This build system is used in the devilution CI system as well in order to make s
 In order to use it to compile the source simply run the following command from the devilution root folder:
 
 ```plain
-docker run -v $(pwd):/root/devilution diasurgical/riivaaja
+docker run --rm -v $(pwd):/root/devilution diasurgical/riivaaja
 ```
 
 To have it generate a pdb file for use with [Devilution-comparer](https://github.com/diasurgical/devilution-comparer) simply set the MAKE_BUILD enviroment variable to "pdb":
 
 ```plain
-docker run -v $(pwd):/root/devilution -e MAKE_BUILD=pdb diasurgical/riivaaja
+docker run --rm -v $(pwd):/root/devilution -e MAKE_BUILD=pdb diasurgical/riivaaja
 ```
 
 ## Building a new image
