@@ -4,10 +4,12 @@
 !VS6/Common/MSDev98/Bin/MSPDB60.DLL
 !VS6/Common/MSDev98/Bin/RCDLL.DLL
 !VS6/Common/MSDev98/Bin/RC.EXE
+!VS6/VC98/Bin/C1.DLL
 !VS6/VC98/Bin/C1XX.DLL
 !VS6/VC98/Bin/c2.dll
 !VS6/VC98/Bin/CL.EXE
 !VS6/VC98/Bin/CVTRES.EXE
+!VS6/VC98/Bin/ml.exe
 !VS6/VC98/Bin/LINK.EXE
 !VS6/VC98/Include/ASSERT.H
 !VS6/VC98/Include/BASETSD.H
@@ -123,8 +125,8 @@
 !VS6/VC98/MFC/Include/WINRES.H
 !DevStudio_5.10/VC/bin/CVTRES.EXE
 !DevStudio_5.10/VC/bin/LINK.EXE
-!DevStudio_5.10/VC/bin/MSDIS100.DLL
-!DevStudio_5.10/VC/bin/MSPDB50.DLL
+!DevStudio_5.10/VC/bin/MSDIS100.dll
+!DevStudio_5.10/VC/bin/mspdb50.dll
 !DevStudio_5.10/VC/bin/MSVCP50.DLL
 !DevStudio_5.10/VC/lib/ADVAPI32.LIB
 !DevStudio_5.10/VC/lib/GDI32.LIB
@@ -136,3 +138,8 @@
 !DevStudio_5.10/VC/lib/USER32.LIB
 !DevStudio_5.10/VC/lib/UUID.LIB
 !DevStudio_5.10/VC/lib/VERSION.LIB
+!DevStudio_5.10/VC/include/DLGS.H
+!DevStudio_5.10/VC/include/WINRESRC.H
+!DevStudio_5.10/VC/include/WINVER.H
+!DevStudio_5.10/SharedIDE/bin/RC.EXE
+!DevStudio_5.10/SharedIDE/bin/RCDLL.DLL
