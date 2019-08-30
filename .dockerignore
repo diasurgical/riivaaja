@@ -1,6 +1,10 @@
 *
 !orig_full.asm
 !status.sh
+!spawn-orig_full.asm
+!spawn-status.sh
+!hellfire-orig_full.asm
+!hellfire-status.sh
 !VS6/Common/MSDev98/Bin/MSPDB60.DLL
 !VS6/Common/MSDev98/Bin/RCDLL.DLL
 !VS6/Common/MSDev98/Bin/RC.EXE
