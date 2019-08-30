@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-diff /root/orig_full.asm spawn-compare_full.asm > /tmp/asm.diff || true
+diff /root/spawn-orig_full.asm compare_full.asm > /tmp/asm.diff || true
 insertions=$(cat /tmp/asm.diff | grep -v "asm" | grep "^+" | grep -vc ';')
 deletions=$(cat /tmp/asm.diff | grep -v "asm" | grep "^-" | grep -vc ';')
 total=$(grep -v ^$ /root/orig_full.asm | grep -vc ';')
