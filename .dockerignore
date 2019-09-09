@@ -131,12 +131,11 @@
 !DevStudio_5.10/VC/bin/C2.EXE
 !DevStudio_5.10/VC/bin/CL.EXE
 !DevStudio_5.10/VC/bin/CVTRES.EXE
-!DevStudio_5.10/VC/bin/lib.exe
+!DevStudio_5.10/VC/bin/LIB.EXE
 !DevStudio_5.10/VC/bin/LINK.EXE
 !DevStudio_5.10/VC/bin/MSDIS100.dll
-!DevStudio_5.10/VC/bin/mspdb50.dll
 !DevStudio_5.10/VC/bin/MSPDB50.DLL
-!DevStudio_5.10/VC/bin/MSVCP50.DLL
+!DevStudio_5.10/VC/bin/msvcp50.dll
 !DevStudio_5.10/VC/lib/ADVAPI32.LIB
 !DevStudio_5.10/VC/lib/GDI32.LIB
 !DevStudio_5.10/VC/lib/KERNEL32.LIB
@@ -219,5 +218,7 @@
 !DevStudio_5.10/VC/include/XSTDDEF
 !DevStudio_5.10/VC/include/YMATH.H
 !DevStudio_5.10/VC/include/YVALS.H
+!DevStudio_5.10/SharedIDE/bin/MSDIS100.DLL
+!DevStudio_5.10/SharedIDE/bin/MSPDB50.DLL
 !DevStudio_5.10/SharedIDE/bin/RC.EXE
 !DevStudio_5.10/SharedIDE/bin/RCDLL.DLL
